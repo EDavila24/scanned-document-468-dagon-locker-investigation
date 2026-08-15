@@ -2,7 +2,8 @@
 <h2>Dagon Locker Ransomware Investigation</h2>
 
 This CTF is from a Cybersecurity Discord community (https://discord.gg/DCaRgbkWJ) aimed to 'bridge the gap' from certifications to landing a job, based on the [Scanned Document 468 SOC CTF challenge](https://github.com/jirosgyros/soc-ctf-scanned-document-468).
-I investigate a simulated ransomware incident using provided security telemetry to identify malicious activity, understood how the intrusion developed, and determined the attacker’s impact on the environment. This challenge focuses on analyzing evidence across the incident lifecycle, including initial access, system and network activity, possible data theft, and file-encryption behavior.
+
+I investigated a simulated ransomware incident using provided security telemetry to identify malicious activity, understood how the intrusion developed, and determined the attacker’s impact on the environment. This challenge focuses on analyzing evidence across the incident lifecycle, including initial access, system and network activity, possible data theft, and file-encryption behavior.
 
 
 <h2> Lab Environment </h2>
@@ -33,4 +34,3 @@ I investigate a simulated ransomware incident using provided security telemetry 
 | Windows Event Logs | Security and object-access evidence, including account activity and audit-log clearing |
 | Proxy / web logs | Evidence for download, AWS S3 upload, and exfiltration activity |
 
-This CTF is from a Cybersecurity Discord community (https://discord.gg/DCaRgbkWJ) aimed to 'bridge the gap' from certifications to landing a job, based on the [Scanned Document 468 SOC CTF challenge](https://github.com/jirosgyros/soc-ctf-scanned-document-468).
