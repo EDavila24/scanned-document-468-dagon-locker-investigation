@@ -13,7 +13,7 @@ I investigate a simulated ransomware incident using provided security telemetry 
 | Virtualization platform | Oracle VirtualBox |
 | Analyst VM | Ubuntu Linux |
 | SIEM / log-analysis platform | Kibana / Elastic Stack |
-| Data source | Provided Windows endpoint, proxy, authentication, and file-access logs |
+| Data source | https://github.com/jirosgyros/soc-ctf-scanned-document-468/tree/main/data |
 | Analysis interface | Kibana Discover |
 | Project type | SOC incident investigation / ransomware case study |
 
