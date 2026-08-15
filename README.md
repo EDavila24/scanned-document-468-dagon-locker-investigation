@@ -6,4 +6,4 @@ Investigate a simulated ransomware incident using provided security telemetry to
 
 ## Challenge Source
 
-This CTF is from a Cybersecurity Discord community aimed to 'bridge the gap' from certifications to landing a job, based on the [Scanned Document 468 SOC CTF challenge](https://github.com/jirosgyros/soc-ctf-scanned-document-468).
+This CTF is from a Cybersecurity Discord community (https://discord.gg/DCaRgbkWJ) aimed to 'bridge the gap' from certifications to landing a job, based on the [Scanned Document 468 SOC CTF challenge](https://github.com/jirosgyros/soc-ctf-scanned-document-468).
