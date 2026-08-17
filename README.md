@@ -33,4 +33,5 @@ I investigated a simulated ransomware incident using provided security telemetry
 | Sysmon | Windows endpoint telemetry source used for process, file, registry, and network events |
 | Windows Event Logs | Security and object-access evidence, including account activity and audit-log clearing |
 | Proxy / web logs | Evidence for download, AWS S3 upload, and exfiltration activity |
+| OSINT | Utilized sources such as VirusTotal, Mitre Att&ck's website, Google, and AI |
 
