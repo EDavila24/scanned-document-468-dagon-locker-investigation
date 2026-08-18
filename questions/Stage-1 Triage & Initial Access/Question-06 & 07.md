@@ -1,3 +1,7 @@
+# 🕵️ CTF Investigation Write-Up
+
+---
+
 ## Q6 — Which **LOLBin** (living-off-the-land binary) executed the dropped payload?
 
 ### Investigation Steps
