@@ -53,4 +53,4 @@ We can always learn what we could've done/thought differently. The goal is not j
 
 ## Final Reflection
 
-This CTF helped me learn and understand the 'bigger picture' or the 'full story' like an analyst: reconstructing an incident, validating evidence, pivoting when necessary, and identifying certain key terms.
+This CTF helped me learn and understand the 'bigger picture' or the 'full story' like an analyst: reconstructing an incident, finding evidence, pivoting when necessary, and identifying/isolating/filtering certain key fields/soucres.
