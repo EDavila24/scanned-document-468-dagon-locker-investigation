@@ -1,7 +1,7 @@
 <h1>SOC CTF</h1>
 <h2>Dagon Locker Ransomware Investigation</h2>
 
-This CTF is from a Cybersecurity Discord community (https://discord.gg/DCaRgbkWJ) aimed to 'bridge the gap' from certifications to landing a job, based on the [Scanned Document 468 SOC CTF challenge](https://github.com/jirosgyros/soc-ctf-scanned-document-468).
+This CTF is made by [Anthony Jirouschek](https://www.linkedin.com/in/anthonyjirouschek/) from a Cybersecurity Discord community (https://discord.gg/DCaRgbkWJ) aimed to 'bridge the gap' from certifications to landing a job, based on the [Scanned Document 468 SOC CTF challenge](https://github.com/jirosgyros/soc-ctf-scanned-document-468).
 
 I investigated a simulated ransomware incident using provided security telemetry to identify malicious activity, understood how the intrusion developed, and determined the attacker’s impact on the environment. This challenge focuses on analyzing evidence across the incident lifecycle, including initial access, system and network activity, possible data theft, and file-encryption behavior.
 
