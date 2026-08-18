@@ -1,3 +1,6 @@
+# 🕵️ CTF Investigation Write-Up
+
+---
 ## Q4 — On which **host** did the initial infection occur?
 
 ### Investigation Steps
