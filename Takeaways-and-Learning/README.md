@@ -3,7 +3,7 @@
 During this CTF, I practiced using Kibana to investigate activity across several log sources and to turn individual events into understanding an attack chain and connected the dots.
 
 
-## Approach Used
+## 👣Approach Used
 
 1. **Start with an initial indicator**
    - I began with the available question & context, suspicious artifact, host, user, filename, process, or time range.
