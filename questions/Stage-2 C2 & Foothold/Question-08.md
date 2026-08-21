@@ -1,3 +1,6 @@
+# 🕵️ CTF Investigation Write-Up
+
+---
 ## Q8 — From which **file-sharing service** was the second-stage beacon downloaded?
 
 ### Investigation Steps
