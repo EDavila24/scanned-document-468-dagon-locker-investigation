@@ -17,16 +17,15 @@
 
    | Field | Value |
    |---|---|
-   | **Sender** | `billing@doc-scan-portal.com` |
+   | **Sender** | `billing@doc-scan-portal[.]com` |
    | **Sender IP** | `192.0.2.255` |
    | **Recipient** | `dana.k@corp.median-grp.com` |
    | **Threat classification** | `MALWARE` |
-   | **Threat URL** | [moashraya.com/scan/468](https://moashraya.com/scan/468) |
+   | **Threat URL** | (hxxps[://]moashraya[.]com/scan/468) |
    | **Timestamp** | `2025-07-01 04:00:00.796` |
 
 3. The recipient, **`dana.k`**, interacted with the malicious URL delivered through the phishing email.
 
-> [!WARNING]
 > The message was classified as **MALWARE** and contained a malicious URL.
 
 >
@@ -58,14 +57,14 @@
    sourcetype=erebus:proxy_access
    ```
 
-2. The proxy logs showed a successful request to `moashraya.com`.
+2. The proxy logs showed a successful request to `moashraya[.]com`.
 
    | Field | Value |
    |---|---|
    | **HTTP method** | `GET` |
-   | **Domain** | `moashraya.com` |
+   | **Domain** | `moashraya[.]com` |
    | **HTTP status** | `200 OK` |
-   | **Malicious file** | `Document_Scan_468.js` |
+   | **Malicious file** | `Document_Scan_468[.]js` |
    | **Timestamp** | `2025-07-01 04:01:31.692` |
 
 Also here's the VirusTotal result for the url I found as malicous:
@@ -75,11 +74,11 @@ Also here's the VirusTotal result for the url I found as malicous:
 4. The requested URL contained the JavaScript payload:
 
    ```text
-   Document_Scan_468.js
+   Document_Scan_468[.]js
    ```
 
 > [!CAUTION]
 > A `200 OK` response confirms that the proxy successfully retrieved the malicious JavaScript file.
 
 > [!IMPORTANT]
-> **Answer:** `Document_Scan_468.js`
+> **Answer:** `Document_Scan_468[.]js`
