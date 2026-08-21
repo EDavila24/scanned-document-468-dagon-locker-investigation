@@ -1,4 +1,4 @@
-<h1>SOC CTF</h1>
+<h1>SOC CTF🏴‍☠️</h1>
 <h2>Dagon Locker Ransomware Investigation</h2>
 
 This CTF was made by [Anthony Jirouschek](https://www.linkedin.com/in/anthonyjirouschek/) from a Cybersecurity Discord community (https://discord.gg/DCaRgbkWJ) aimed to 'bridge the gap' from certifications to landing a job, based on the [Scanned Document 468 SOC CTF challenge](https://github.com/jirosgyros/soc-ctf-scanned-document-468).
