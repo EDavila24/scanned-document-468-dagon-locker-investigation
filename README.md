@@ -35,3 +35,5 @@ I investigated a simulated ransomware incident using provided security telemetry
 | Proxy / web logs | Evidence for download, AWS S3 upload, and exfiltration activity |
 | OSINT | Utilized sources such as VirusTotal, Mitre Att&ck's website, Google, and AI |
 
+## Capstone
+My final question/report to this challenge can be found @ (https://github.com/EDavila24/scanned-document-468-dagon-locker-investigation/blob/main/questions/Capstone-%20Final%20Write%20Up.md)
