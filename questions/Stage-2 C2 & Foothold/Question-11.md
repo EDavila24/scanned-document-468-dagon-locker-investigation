@@ -1,3 +1,6 @@
+# 🕵️ CTF Investigation Write-Up
+
+---
 ## Q11 — Name one **Active Directory reconnaissance** tool or command run from the beacon.
 
 ### Investigation Steps
