@@ -1,4 +1,4 @@
-# Capstone Incident Assessment
+# 🕵️Capstone Incident Assessment
 ## Scanned Document 468 — Dagon Locker Ransomware Investigation
 
 ---
