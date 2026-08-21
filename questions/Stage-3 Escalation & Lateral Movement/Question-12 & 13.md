@@ -1,3 +1,6 @@
+# 🕵️ CTF Investigation Write-Up
+
+---
 ## Q12 — Which **domain controller** did the attacker access?
 
 ### Investigation Steps
