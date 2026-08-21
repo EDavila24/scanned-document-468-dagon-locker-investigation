@@ -30,7 +30,19 @@
 > The message was classified as **MALWARE** and contained a malicious URL.
 
 >
->  [!IMPORTANT]
+4. After identifying the initial phishing email and its malicious URL, I pivoted to Windows process-creation logs to determine which user executed the phishing attachment.
+
+5. In Kibana Discover, I filtered for process-creation events using **Sysmon Event ID 1** and **Windows Security Event ID 4688**:
+
+   ```kql
+   EventID: 1 OR EventID: 4688
+   ```
+
+6. I added the `CommandLine` and `SubjectUserName` fields as columns in the Discover results. The `SubjectUserName` field identified the account that launched the process, while `CommandLine` showed the executed command and associated file path.
+
+7. The process-creation evidence showed that **`dana.k`** executed the phishing attachment.
+
+> [!IMPORTANT]
 > **Answer:** `dana.k`
 
 ---
@@ -56,7 +68,11 @@
    | **Malicious file** | `Document_Scan_468.js` |
    | **Timestamp** | `2025-07-01 04:01:31.692` |
 
-3. The requested URL contained the JavaScript payload:
+Also here's the VirusTotal result for the url I found as malicous:
+<img width="577" height="263" alt="Screenshot 2026-08-18 at 2 22 08 PM" src="https://github.com/user-attachments/assets/4c59534b-9598-440f-9383-91285ca4798f" />
+
+
+4. The requested URL contained the JavaScript payload:
 
    ```text
    Document_Scan_468.js
