@@ -1,4 +1,4 @@
-# What I Learned
+# 📚What I Learned
 
 During this CTF, I practiced using Kibana to investigate activity across several log sources and to turn individual events into understanding an attack chain and connected the dots.
 
