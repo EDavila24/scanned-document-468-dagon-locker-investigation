@@ -70,4 +70,4 @@ With each investigation, it is an opportunity to improve research habits, pivoti
 
 ## Final Reflection
 
-This CTF helped me learn and understand the 'bigger picture' or the 'full story' like an analyst: reconstructing an incident, finding evidence, pivoting when necessary, and identifying/isolating/filtering certain key fields/sources.
+This CTF was a joy and helped me learn and understand the 'bigger picture' or the 'full story' like an analyst: reconstructing an incident, finding evidence, pivoting when necessary, and identifying/isolating/filtering certain key fields/sources.
