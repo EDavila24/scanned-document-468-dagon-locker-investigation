@@ -1,3 +1,6 @@
+# 🕵️ CTF Investigation Write-Up
+
+---
 ## Q14 — How many **minutes** after the first beacon check-in was the domain controller reached?
 
 ### Investigation Steps
