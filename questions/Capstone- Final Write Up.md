@@ -27,12 +27,12 @@ The attacker’s objective was most likely to create financial pressure: steal s
 | Category | Known Evidence |
 |---|---|
 | Initial user | `dana.k` |
-| Initial malicious file | `.Document_Scan_468.js` |
+| Initial malicious file | `[.]Document_Scan_468[.]js` |
 | Initial execution process | `explorer.exe` |
 | Payload execution utility | `rundll32.exe` |
 | Second-stage delivery service | `file.io` |
 | Downloaded payload | `C:\ProgramData\update.dll` |
-| Command-and-control IP | `51.89.133.3` |
+| Command-and-control IP | `51[.]89[.]133[.]3` |
 | File server accessed | `mer-fs01.corp.local` |
 | Sensitive file accessed | `passwords.xlsx` |
 | Archive staged for transfer | `fin_eng.zip` |
@@ -52,10 +52,10 @@ The attacker’s objective was most likely to create financial pressure: steal s
 | Phase | Time | Host / Account | Observed Activity | Evidence |
 |---|---|---|---|---|
 | 1. Phishing delivery | `[July 1, 2025 @ 4:00:00.796]` | `dana.k` mailbox | Phishing email delivered to the user | Email telemetry |
-| 2. Initial execution | `[July 1, 2025 @ 4:01:31.692]` | `[mer-wks-114.corp.local]` / `dana.k` | User opened `.Document_Scan_468.js` from `explorer.exe` | Process-creation telemetry |
+| 2. Initial execution | `[July 1, 2025 @ 4:01:31.692]` | `[mer-wks-114.corp.local]` / `dana.k` | User opened `[.]Document_Scan_468[.]js` from `explorer.exe` | Process-creation telemetry |
 | 3. Payload execution | `[July 1, 2025 @ 4:02:24.350]` | `[mer-wks-114.corp.local]` | `rundll32.exe` executed attacker payload | Process command line |
 | 4. Second-stage download | `[Jul 1, 2025 @ 04:04:45.383]` | `[mer-wks-114.corp.local]` | Payload retrieved from `file.io` and saved as `C:\ProgramData\update.dll` | Proxy and file-creation telemetry |
-| 5. C2 communication | `[July 1, 2025 @ 04:05:10.584]` | `[mer-wks-114.corp.local]` | Connection established with `51.89.133.3` | Network or proxy telemetry |
+| 5. C2 communication | `[July 1, 2025 @ 04:05:10.584]` | `[mer-wks-114.corp.local]` | Connection established with `51[.]89[.]133[.]3` | Network or proxy telemetry |
 | 6. Domain discovery | `[July 1, 2025 @ 04:06:12.458] , [July 1, 2025 @ 04:06:21.035], & [July 1, 2025 @ 04:06:34.079]` | `[mer-wks-114.corp.local]` / `[dana.k]` | `nltest`, `net group "Domain Admins" /domain`, and `AdFind.exe` executed | Process-creation telemetry |
 | 7. Lateral movement | `[July 1, 2025 @ 04:10:23.375]` | `[mer-wks-114.corp.local]` → `mer-dc01.corp.local` / `[t.reyes]` | Attacker accessed domain controller | Authentication and endpoint telemetry |
 | 8. Domain-controller activity | `[July 1, 2025 @ 04:10:23.375]` | `[mer-dc01.corp.local]` / `[t.reyes]` | `WMIC.exe` used against domain-controller infrastructure | Process and remote-management telemetry |
@@ -91,7 +91,7 @@ Following execution, the attacker downloaded a second-stage payload from the fil
 C:\ProgramData\update.dll
 ```
 
-The compromised host then communicated with **`51.89.133.3`**, indicating probable command-and-control activity.
+The compromised host then communicated with **`51[.]89[.]133[.]3`**, indicating probable command-and-control activity.
 
 ```text
 file.io
