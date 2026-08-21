@@ -1,3 +1,6 @@
+# 🕵️ CTF Investigation Write-Up
+
+---
 ## Q24 — Taking the encryption together with the recovery-inhibition step that immediately preceded it, what **class of attack** is this incident?
 
 ### Investigation Steps
