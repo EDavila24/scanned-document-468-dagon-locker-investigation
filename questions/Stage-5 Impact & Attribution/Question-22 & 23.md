@@ -1,3 +1,6 @@
+# 🕵️ CTF Investigation Write-Up
+
+---
 ## Q22 — The attacker ran ransomware on the domain controller. What on-disk **payload file** (DLL) did they execute to encrypt the files?
 
 ### Investigation Steps
