@@ -1,3 +1,6 @@
+# 🕵️ CTF Investigation Write-Up
+
+---
 ## Q9 — To what **path on disk** was the second-stage payload saved?
 
 ### Investigation Steps
