@@ -77,3 +77,5 @@
 | Image | `cmd.exe` |
 | CommandLine | `cmd.exe` |
 | Timestamp | `July 1, 2025 @ 4:02:17.393` |
+
+**Answer:** `cmd.exe`
