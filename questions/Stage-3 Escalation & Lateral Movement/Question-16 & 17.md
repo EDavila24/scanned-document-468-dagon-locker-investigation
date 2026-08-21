@@ -1,3 +1,6 @@
+# 🕵️ CTF Investigation Write-Up
+
+---
 ## Q16 — What is the **name** of the hidden local admin account the attacker created?
 
 ### Investigation Steps
