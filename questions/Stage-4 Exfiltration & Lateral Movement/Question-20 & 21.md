@@ -1,3 +1,6 @@
+# 🕵️ CTF Investigation Write-Up
+
+---
 ## Q20 — What **command** did the attacker run to delete volume shadow copies?
 
 ### Investigation Steps
