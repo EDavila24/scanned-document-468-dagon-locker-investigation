@@ -28,7 +28,7 @@
    rundll32.exe magni.w,scab \k arabika752
    ```
 
-6. The executable `rundll32.exe` is a legitimate Windows utility that can be abused to execute malicious DLL exports, making it a commonly abused LOLBin.
+6. The executable `rundll32.exe` is a legitimate Windows utility that can be abused to execute malicious DLL exports, making it a commonly abused LOLBin. (Learned this from reserach)
 
 | Field | Value |
 |---|---|
