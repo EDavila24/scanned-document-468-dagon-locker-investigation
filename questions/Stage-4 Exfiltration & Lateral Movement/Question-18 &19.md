@@ -66,7 +66,7 @@
 
 | Field | Value |
 |---|---|
-| Host | `mer-backup-9f2.s3.amazonaws.com` |
+| Host | `mer-backup-9f2[.]s3[.]amazonaws[.]com` |
 | Cloud Service | `Amazon S3` |
 | HTTP Method | `PUT` |
 | Status Code | `200` |
