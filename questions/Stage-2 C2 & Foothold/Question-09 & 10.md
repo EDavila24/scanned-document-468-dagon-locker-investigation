@@ -47,10 +47,10 @@
 |---|---|
 | Host | `mer-wks-114.corp.local` |
 | Event ID | `3` |
-| Source IP | `10.25.219.184` |
-| Destination IP | `51.89.133.3` |
+| Source IP | `10[.]25[.]219[.]184` |
+| Destination IP | `51[.]89[.]133[.]3` |
 | Timestamp | `July 1, 2025 @ 04:05:10.584` |
 
 5. The external destination IP is a command-and-control destination contacted by the beacon.
 
-**Answer:** `51.89.133.3`
+**Answer:** `51[.]89[.]133[.]3`
