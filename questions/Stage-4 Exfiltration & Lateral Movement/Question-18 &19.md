@@ -1,3 +1,6 @@
+# 🕵️ CTF Investigation Write-Up
+
+---
 ## Q18 — What **tool** did the attacker use to exfiltrate data?
 
 ### Investigation Steps
